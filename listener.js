@@ -4,7 +4,7 @@
 // Connect to the redis server
 const redis = require("redis");
 var redisConf = {
-  host: 'ev-compsci-01', // The redis's server ip 
+  host: 'ev-compsci-01.principia.local', // The redis's server ip 
   port: '6379'
   }; 
 const client = redis.createClient(redisConf);
